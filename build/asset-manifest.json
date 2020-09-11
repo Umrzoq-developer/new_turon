@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/new_turon/static/css/main.cab92878.chunk.css",
+    "main.js": "/new_turon/static/js/main.efd0807d.chunk.js",
+    "main.js.map": "/new_turon/static/js/main.efd0807d.chunk.js.map",
+    "runtime-main.js": "/new_turon/static/js/runtime-main.5a9da19c.js",
+    "runtime-main.js.map": "/new_turon/static/js/runtime-main.5a9da19c.js.map",
+    "static/css/2.d4e7eff5.chunk.css": "/new_turon/static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.2d39cd11.chunk.js": "/new_turon/static/js/2.2d39cd11.chunk.js",
+    "static/js/2.2d39cd11.chunk.js.map": "/new_turon/static/js/2.2d39cd11.chunk.js.map",
+    "index.html": "/new_turon/index.html",
+    "precache-manifest.aad3b9639c3ba625a6b1f34e609bfab9.js": "/new_turon/precache-manifest.aad3b9639c3ba625a6b1f34e609bfab9.js",
+    "service-worker.js": "/new_turon/service-worker.js",
+    "static/css/2.d4e7eff5.chunk.css.map": "/new_turon/static/css/2.d4e7eff5.chunk.css.map",
+    "static/css/main.cab92878.chunk.css.map": "/new_turon/static/css/main.cab92878.chunk.css.map",
+    "static/js/2.2d39cd11.chunk.js.LICENSE.txt": "/new_turon/static/js/2.2d39cd11.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a9da19c.js",
+    "static/css/2.d4e7eff5.chunk.css",
+    "static/js/2.2d39cd11.chunk.js",
+    "static/css/main.cab92878.chunk.css",
+    "static/js/main.efd0807d.chunk.js"
+  ]
+}

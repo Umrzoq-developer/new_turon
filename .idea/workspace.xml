@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d729d42-2c2a-400f-8802-bebcd4910450" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/mainApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExtraServices/ExtraServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExtraServices/ExtraServices.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormAddOrders/FormAddOrders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FormAddOrders/FormAddOrders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Input.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/InputNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/InputNumber.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/SelectInputRegion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/SelectNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/Textarea.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Receiver/Receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SettingsExtraServices/Add/Tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SettingsExtraServices/SettingsExtraServices.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SettingsExtraServices/SettingsExtraServices.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SidebarSettings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SiderSettings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkeletonTable/Skeleton.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkeletonTable/SkeletonTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ActionBar/ActionBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ActionBar/ActionStyle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AuthLogin/AuthLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AuthLogin/formLogin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/Variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/NewOrder/NewOrder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/NewOrder/NewOrder.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Settings/Branches/Branches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Settings/Branches/Branches.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Settings/Settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Settings/Settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Sidebar/SideBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Sidebar/Sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Table/TableMain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Table/TableMain.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SFPro/SFProDisplay-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SFPro/SFProDisplay-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SFPro/SFProDisplay-Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SFPro/SFProDisplay-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/SFPro/SFProDisplay-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/user/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Navbar/NavbarAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Navbar/NavbarReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Table/TableAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Table/TableReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actionBar/actionBarAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actionBar/actionBarReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth/authAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth/authReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1gquCEshukojvztwBKSUvDGk6EA" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d729d42-2c2a-400f-8802-bebcd4910450" name="Default Changelist" comment="" />
+      <created>1598854314022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598854314022</updated>
+      <workItem from="1598854319250" duration="1556000" />
+      <workItem from="1598855889152" duration="117000" />
+      <workItem from="1598856017875" duration="5843000" />
+      <workItem from="1598865185647" duration="47277000" />
+      <workItem from="1599022761732" duration="23932000" />
+      <workItem from="1599108124066" duration="17889000" />
+      <workItem from="1599127565859" duration="12866000" />
+      <workItem from="1599195231391" duration="30130000" />
+      <workItem from="1599455007929" duration="28003000" />
+      <workItem from="1599540122498" duration="28456000" />
+      <workItem from="1599626957258" duration="31473000" />
+      <workItem from="1599713833840" duration="29394000" />
+      <workItem from="1599801076228" duration="22994000" />
+      <workItem from="1599825021404" duration="645000" />
+      <workItem from="1599826744903" duration="2831000" />
+    </task>
+    <task id="LOCAL-00005" summary="button radius fixed">
+      <created>1598882232453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598882232453</updated>
+    </task>
+    <task id="LOCAL-00006" summary="redux added">
+      <created>1598947356939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598947356939</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added auth login">
+      <created>1598958176265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598958176265</updated>
+    </task>
+    <task id="LOCAL-00008" summary="logout and sidebar fixed">
+      <created>1598968100402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968100402</updated>
+    </task>
+    <task id="LOCAL-00009" summary="login fixed">
+      <created>1598968411428</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598968411428</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bootstrap table added">
+      <created>1599024637452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599024637452</updated>
+    </task>
+    <task id="LOCAL-00011" summary="table removed">
+      <created>1599026689967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599026689967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="table removed">
+      <created>1599030154693</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030154693</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Checkbox created">
+      <created>1599030168366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030168366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Checkbox created">
+      <created>1599030392854</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030392854</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update Checkbox">
+      <created>1599030632545</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030632545</updated>
+    </task>
+    <task id="LOCAL-00016" summary="rounded class added">
+      <created>1599030943173</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599030943173</updated>
+    </task>
+    <task id="LOCAL-00017" summary="General Color added">
+      <created>1599031671485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599031671485</updated>
+    </task>
+    <task id="LOCAL-00018" summary="General Color added">
+      <created>1599031817661</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599031817661</updated>
+    </task>
+    <task id="LOCAL-00019" summary="General Color added">
+      <created>1599032803196</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599032803196</updated>
+    </task>
+    <task id="LOCAL-00020" summary="General Color added">
+      <created>1599033550447</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599033550447</updated>
+    </task>
+    <task id="LOCAL-00021" summary="General Color added">
+      <created>1599037781182</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599037781182</updated>
+    </task>
+    <task id="LOCAL-00022" summary="General Color added">
+      <created>1599039017317</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599039017317</updated>
+    </task>
+    <task id="LOCAL-00023" summary="General Color added">
+      <created>1599040439420</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599040439420</updated>
+    </task>
+    <task id="LOCAL-00024" summary="General Color added">
+      <created>1599042913355</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599042913355</updated>
+    </task>
+    <task id="LOCAL-00025" summary="General Color added">
+      <created>1599053622403</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599053622403</updated>
+    </task>
+    <task id="LOCAL-00026" summary="General Color added">
+      <created>1599130310635</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599130310635</updated>
+    </task>
+    <task id="LOCAL-00027" summary="General Color added">
+      <created>1599137839112</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599137839112</updated>
+    </task>
+    <task id="LOCAL-00028" summary="General Color added">
+      <created>1599139188230</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599139188230</updated>
+    </task>
+    <task id="LOCAL-00029" summary="General Color added">
+      <created>1599139873262</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599139873262</updated>
+    </task>
+    <task id="LOCAL-00030" summary="General Color added">
+      <created>1599141794116</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599141794116</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changed Sidebar">
+      <created>1599204248510</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599204248510</updated>
+    </task>
+    <task id="LOCAL-00032" summary="changed Sidebar">
+      <created>1599205041441</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599205041441</updated>
+    </task>
+    <task id="LOCAL-00033" summary="changed Sidebar">
+      <created>1599219156941</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599219156941</updated>
+    </task>
+    <task id="LOCAL-00034" summary="changed Sidebar">
+      <created>1599220007296</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599220007297</updated>
+    </task>
+    <task id="LOCAL-00035" summary="changed Sidebar">
+      <created>1599224645004</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599224645004</updated>
+    </task>
+    <task id="LOCAL-00036" summary="changed Sidebar">
+      <created>1599227759470</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599227759470</updated>
+    </task>
+    <task id="LOCAL-00037" summary="changed Action bar">
+      <created>1599456914658</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599456914658</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bootstrap removed">
+      <created>1599481635457</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1599481635457</updated>
+    </task>
+    <task id="LOCAL-00039" summary="bootstrap removed">
+      <created>1599487571247</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1599487571247</updated>
+    </task>
+    <task id="LOCAL-00040" summary="action bar is ready">
+      <created>1599547036269</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1599547036269</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fixed problem">
+      <created>1599549916733</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1599549916733</updated>
+    </task>
+    <task id="LOCAL-00042" summary="SelectNumber Component Added">
+      <created>1599556684462</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1599556684462</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Selected Field added">
+      <created>1599561665728</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1599561665728</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Selected Field added">
+      <created>1599561922088</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1599561922088</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Extra services added">
+      <created>1599570667392</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1599570667392</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Modal fixed">
+      <created>1599638168037</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1599638168038</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Modal fixed">
+      <created>1599717522521</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1599717522522</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Modal fixed">
+      <created>1599718119150</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1599718119150</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Checkbox fixed">
+      <created>1599721948112</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1599721948112</updated>
+    </task>
+    <task id="LOCAL-00050" summary="dopalnitilniy added">
+      <created>1599743703345</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1599743703346</updated>
+    </task>
+    <task id="LOCAL-00051" summary="settings Routing fixed">
+      <created>1599745745866</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1599745745866</updated>
+    </task>
+    <task id="LOCAL-00052" summary="settings Routing fixed">
+      <created>1599746691329</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1599746691329</updated>
+    </task>
+    <task id="LOCAL-00053" summary="settings Routing fixed">
+      <created>1599824805264</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1599824805265</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="addded sidebar component" />
+    <MESSAGE value="sidebar added" />
+    <MESSAGE value="button radius fixed" />
+    <MESSAGE value="redux added" />
+    <MESSAGE value="added auth login" />
+    <MESSAGE value="logout and sidebar fixed" />
+    <MESSAGE value="login fixed" />
+    <MESSAGE value="bootstrap table added" />
+    <MESSAGE value="table removed" />
+    <MESSAGE value="Checkbox created" />
+    <MESSAGE value="Update Checkbox" />
+    <MESSAGE value="rounded class added" />
+    <MESSAGE value="General Color added" />
+    <MESSAGE value="changed Sidebar" />
+    <MESSAGE value="changed Action bar" />
+    <MESSAGE value="bootstrap removed" />
+    <MESSAGE value="action bar is ready" />
+    <MESSAGE value="fixed problem" />
+    <MESSAGE value="SelectNumber Component Added" />
+    <MESSAGE value="Selected Field added" />
+    <MESSAGE value="Extra services added" />
+    <MESSAGE value="Modal fixed" />
+    <MESSAGE value="Checkbox fixed" />
+    <MESSAGE value="dopalnitilniy added" />
+    <MESSAGE value="settings Routing fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings Routing fixed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#ESLint" timestamp="1598855824329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1598855824329" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599050881493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599050881493" />
+    <state x="731" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599112207162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599112207162" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599557942708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599557942708" />
+    <state x="583" y="28" key="CommitChangelistDialog2" timestamp="1599824804281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599824804281" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1599631053147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599631053147" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1599737948729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599737948729" />
+    <state x="664" y="227" key="MultipleFileMergeDialog" timestamp="1599737948736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="227" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599737948736" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1598865172822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598865172822" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1598951329506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1598951329506" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599824816128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599824816128" />
+    <state x="767" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598857417541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598857417541" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599805865941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599805865941" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599809237544">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599809237544" />
+  </component>
+</project>
