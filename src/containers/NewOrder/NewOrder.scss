@@ -1,0 +1,158 @@
+@import "src/containers/Main/Variables";
+
+.newOrder {
+
+  .formAdd{
+    //padding: 20px 30px;
+  }
+
+  .typeOrder{
+    padding: 10px 20px 15px;
+    border-bottom: 1px solid #EAEDF3;
+
+    .types{
+      display: flex;
+
+      .type{
+        margin-right: 10px;
+        transition: $mainTransition;
+        cursor: pointer;
+        padding-top: 8px;
+        text-align: center;
+        border: 1px solid $borderColor;
+        border-radius: $defaultBorderRadius;
+        height: 60px;
+        width: 70px;
+
+        p{
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 0;
+        }
+
+      }
+    }
+
+    .activeType{
+      border: 1px solid $mainBlue !important;
+      background: $lightBlue;
+      color: $mainBlue;
+
+      svg{
+        fill: $mainBlue !important;
+      }
+    }
+
+    .type svg{
+      fill: $tableColorIcons;
+      height: 20px;
+      width: 34px;
+    }
+
+    .typeFedex{
+      padding-top: 12px !important;
+
+      svg{
+        width: 66px;
+        padding-right: 8px;
+      }
+
+      p{
+        margin-top: -4px;
+      }
+    }
+
+  }
+
+  .sender{
+    padding: 10px 20px 20px;
+    border-bottom: 1px solid #EAEDF3;
+
+    .inputRow:after{
+      transition: .2s all ease;
+      content: '';
+      position: absolute;
+      width: calc(100% + 40px);
+      height: 82px;
+      bottom: -10px;
+      background: $bodyBackground;
+      left: -20px;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .inputRow:hover:after{
+      opacity: 1;
+    }
+
+    .inputRow{
+      position: relative;
+      margin-bottom: 10px;
+      display: flex;
+
+      div{
+        position: relative;
+        z-index: 2;
+      }
+
+      .defaultInput{
+        position: relative;
+        z-index: 2;
+        width: 200px;
+        margin-right: 18px;
+      }
+
+      .radio{
+        position: relative;
+        z-index: 2;
+      }
+
+      .defaultInput:last-child{
+        margin-right: 0;
+      }
+    }
+
+    .inputRow:last-child{
+      margin-bottom: 0;
+    }
+
+    .head{
+      margin-bottom: 10px;
+      display: flex;
+    }
+
+    h6{
+      font-size: 18px;
+    }
+
+    .search{
+      margin-left: auto;
+
+      form{
+        margin-right: 0;
+      }
+    }
+  }
+
+  .radio{
+
+    label{
+      color: #73849A;
+      font-size: 16px;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    .ant-radio-group{
+      margin-top: 10px;
+      display: flex;
+    }
+
+    .ant-radio-inner{
+      background: $defaultColorCheckbox;
+      border: 1px solid $defaultColorCheckbox
+    }
+  }
+
+}
+

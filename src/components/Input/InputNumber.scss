@@ -1,0 +1,15 @@
+@import "../../containers/Main/Variables";
+
+.numberInputContainer {
+  display: flex;
+  flex-direction: column;
+
+  .InputNumber {
+    width: 170px;
+    height: 38px;
+    line-height: 38px;
+    color: $colorIcons;
+    border-radius: $defaultBorderRadius;
+  }
+
+}

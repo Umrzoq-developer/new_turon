@@ -1,0 +1,36 @@
+@import "src/containers/Main/Variables";
+
+.defaultInput{
+
+  label{
+    color: $colorIcons;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block
+  }
+
+  input{
+    line-height: 38px;
+    width: 200px;
+    height: 38px;
+    border: 1px solid $borderColor;
+    border-radius: $defaultBorderRadius;
+  }
+
+}
+
+.required{
+  margin-bottom: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.required:after{
+  content: '*';
+  position: absolute;
+  color: #F75059;
+  height: 6px;
+  line-height: 12px;
+  top: 5px;
+  right: -10px;
+}

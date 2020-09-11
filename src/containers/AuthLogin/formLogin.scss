@@ -1,0 +1,95 @@
+@import "./src/containers/Main/Variables";
+
+.formAuth{
+  position: absolute;
+  width: 360px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: fit-content;
+
+  .logo{
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 30px;
+  }
+
+  .buttonAdd{
+    font-size: 16px;
+    height: 38px;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  .text{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .show{
+    fill: $colorIcons;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .containerFormLogin{
+    padding: 30px;
+    background: #fff;
+    border-radius: .5rem;
+
+    .passwordAuth{
+      position: relative;
+    }
+
+    input{
+      padding-right: 40px;
+      font-size: 16px;
+      border-radius: 4px;
+      height: 38px;
+      border: 1px solid $borderColor;
+    }
+
+    input::-webkit-input-placeholder {
+      color: #B2BECD;
+    }
+    input:-ms-input-placeholder {
+      color: #B2BECD;
+    }
+    input::placeholder {
+      color: #B2BECD;
+    }
+
+    h5{
+      font-size: 20px;
+      color: #000;
+      text-align: center;
+      margin-bottom: 20px;
+      letter-spacing: .5px;
+      font-weight: normal;
+    }
+
+  }
+
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-form-item:last-child{
+  margin-bottom: 0;
+}

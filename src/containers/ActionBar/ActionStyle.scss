@@ -1,0 +1,349 @@
+@import "../Main/Variables";
+
+* {
+  user-select: none;
+}
+.actionContainer {
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  width: calc(100% - 280px);
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  padding: 0 20px;
+  margin-left: 0;
+  user-select: none;
+
+
+  @media (min-width: 750px) and (max-width: 1024px) {
+    width: 80vw;
+  }
+
+  .itemCountAction {
+    color: $mainBlue;
+    font-weight: 500;
+  }
+
+  .itemChosen {
+    color: $itemCount;
+    font-size: 18px;
+    //margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .iconButton {
+    margin-right: 8px;
+  }
+
+  .iconButton-primary {
+    width: 13px;
+    height: 18px;
+    fill: $mainBlue;
+    opacity: 1 !important;
+  }
+
+  .iconButton-violet {
+    width: 18px;
+    height: 18px;
+    fill: $colorViolet;
+  }
+
+  .iconButton-Box {
+    width: 18px;
+    height: 18px;
+    fill: $boxColor;
+  }
+
+  .iconButton-Airplane {
+    width: 18px;
+    height: 18px;
+    fill: $colorWarning;
+  }
+
+  .iconButton-Print {
+    width: 18px;
+    height: 18px;
+    fill: $colorIcons;
+  }
+
+  .iconButton-Kargo {
+    width: 18px;
+    height: 18px;
+    fill: $success;
+  }
+
+  .iconButton-finance {
+    width: 18px;
+    height: 18px;
+    fill: $primaryColor;
+  }
+
+  .iconButton-delete {
+    width: 18px;
+    height: 18px;
+    fill: $alertNotification;
+  }
+
+  .myButtonAction {
+    width: auto;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    border-radius: .5rem;
+    background: white !important;
+    border: 1px solid $borderColor;
+    border-color: $borderColor !important;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 0 10px;
+    align-items: center;
+  }
+
+  .nameButton {
+    color: $itemCount !important;
+    opacity: 1 !important;
+    margin-bottom: 0;
+  }
+
+}
+
+
+.actionDropMine {
+  width: 231px;
+  font-size: 16px !important;
+
+  .menu-item {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 34px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+
+    .menu-item-name{
+      align-items: center;
+    }
+  }
+
+  .ant-checkbox {
+    border-radius: 50% !important;
+  }
+
+  .ant-checkbox-inner {
+    border: none;
+    border-radius: 50px !important;
+    background: $defaultColorCheckbox;
+  }
+
+  .ant-checkbox-checked {
+    border-radius: 50px;
+
+    &::after {
+      border-radius: 50%;
+    }
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background: $mainBlue;
+  }
+
+  .ant-dropdown-menu-item {
+    width: 100%;
+    margin: auto 0;
+  }
+
+  .textHeader {
+    font-size: 16px !important;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: $linkBlue;
+  }
+
+  .clock {
+    width: 16px;
+    height: 16px;
+    margin-left: 1px;
+    fill: $colorIcons;
+  }
+
+  .onTime {
+    width: 18px;
+    height: 18px;
+    line-height: 34px;
+  }
+
+
+  .blue {
+    fill: $mainBlue;
+  }
+
+  .warning {
+    fill: $colorWarning;
+  }
+
+  .violet {
+    fill: $boxColor;
+  }
+
+  .lightBlue {
+    fill: $secondaryBlue;
+  }
+
+  .thinBlue {
+    fill: $thirdBlue;
+  }
+
+  .ready {
+    width: 16px;
+    height: 16px;
+    fill: $successText;
+    margin-left: 3px;
+  }
+
+  .cancel {
+    width: 16px;
+    height: 16px;
+    fill: $sideItemCountTwo;
+    margin-left: 3px;
+  }
+
+  .ant-btn-primary {
+    height: 38px !important;
+    width: 120px !important;
+  }
+}
+
+
+.modalMine {
+
+  .ant-checkbox {
+    border-radius: 50% !important;
+  }
+
+  .ant-checkbox-inner {
+    border: none;
+    border-radius: 50px !important;
+    background: $defaultColorCheckbox;
+  }
+
+  .ant-checkbox-checked {
+    border-radius: 50px;
+
+    &::after {
+      border-radius: 50%;
+    }
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background: $mainBlue;
+  }
+
+  .ant-collapse-content > .ant-collapse-content-box {
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .ant-modal-content {
+    border-radius: 10px !important;
+
+    .ant-modal-header {
+      border-radius: 10px;
+    }
+
+    .ant-modal-footer {
+
+      .ant-btn {
+        border-radius: 6px !important;
+        width: 120px !important;
+        height: 38px !important;
+      }
+    }
+  }
+
+  .itemColSecond {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0 !important;
+
+    .sideItemCountZero {
+      width: 92px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 26px;
+      text-align: right;
+      padding-right: 15px;
+    }
+
+    .sideItemNameSecond {
+      color: $itemCount;
+      padding-top: 2px;
+    }
+  }
+
+
+  .deleteDiv{
+    border: none !important;
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+
+    .deleteIcon{
+      width: 18px;
+      height: 18px;
+      fill: $colorIcons;
+    }
+  }
+
+
+}
+
+.myButtonActionOverlay {
+  width: 90%;
+  height: 38px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: .5rem;
+  background: white !important;
+  border: 1px solid $borderColor;
+  border-color: $borderColor !important;
+  padding: 0 15px;
+  align-items: center;
+
+  .iconButtonOverlay {
+    margin-right: 2px;
+  }
+
+  .iconButton-BoxOverlay {
+    width: 18px;
+    height: 18px;
+    fill: $boxColor;
+  }
+
+  .iconButton-AirplaneOverlay {
+    width: 18px;
+    height: 18px;
+    fill: $colorWarning;
+  }
+
+  .nameButtonOverlay {
+    color: $itemCount !important;
+    opacity: 1 !important;
+    margin-top: 15px;
+    margin-left: 8px;
+    align-items: center;
+    width: 85%;
+    font-size: 16px;
+  }
+}
+
+
+

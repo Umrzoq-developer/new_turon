@@ -1,0 +1,231 @@
+@import "../../containers/Main/Variables";
+
+
+.settingsExtraContainer {
+
+  .headerSettingsExtra {
+    display: flex;
+    justify-content: space-between;
+
+    .head {
+      font-size: 20px;
+      color: black;
+      justify-content: flex-start;
+
+      .headCount {
+        color: $colorIcons;
+      }
+    }
+
+    .myExtraSettingsButton {
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: row;
+      border-radius: $defaultBorderRadius;
+      background: $success;
+      align-items: center;
+      color: white;
+      height: 38px;
+      border: none;
+    }
+
+    .plusIconSettings {
+      width: 18px;
+      height: 18px;
+      fill: whitesmoke;
+      margin-right: 10px;
+    }
+
+    .nameExtraAdd {
+      margin-top: 16px;
+      font-size: 16px;
+    }
+
+  }
+
+  .headerSettingsExtraBody {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .7vw;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    .bodyItem {
+      display: grid;
+      grid-template-columns: .1fr 1fr .7fr 1fr;
+      grid-gap: .5vw;
+      padding: 10px 20px 10px 24px;
+      border-radius: $defaultBorderRadius;
+      background: #fff;
+
+      .bodyId {
+        color: $colorIcons;
+        font-size: 16px;
+      }
+
+      .bodyName {
+        color: black;
+        font-size: 16px;
+      }
+
+      .bodyPrice {
+        font-size: 16px;
+        color: $boxColor;
+        justify-content: flex-end;
+      }
+
+      .bodyButtonGroup {
+        display: flex;
+        justify-content: space-between;
+
+        .bodyStatus {
+          width: 100px;
+          height: 28px;
+          border-radius: $defaultBorderRadius;
+          justify-content: center;
+          margin-left: 10px;
+        }
+
+        .activeItem {
+
+          background: $successBackground;
+          color: $successText;
+        }
+
+        .notActive {
+          background: $bodyBackground;
+        }
+
+        .EditButton {
+          display: flex;
+          flex-direction: row;
+          border-radius: $defaultBorderRadius;
+          align-items: center;
+          width: 120px;
+          height: 28px;
+          color: $defaultColor;
+
+          .editIconClass {
+            width: 12px;
+            height: 12px;
+            fill: $defaultColor;
+            margin-right: 10px;
+          }
+
+          .editName {
+            margin-bottom: 0;
+            font-size: 14px;
+          }
+        }
+      }
+
+    }
+  }
+
+
+}
+
+.modalAdd {
+
+  .delete {
+    display: flex;
+    border: none;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .deleteIconEdit {
+    width: 18px;
+    height: 18px;
+    fill: red;
+  }
+
+  .deleteEdit {
+    color: red;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+
+  .cancel{
+    height: 38px;
+    border: none;
+  }
+
+  .okAdd {
+    color: white !important;
+    background: $mainBlue;
+    height: 38px;
+
+    .addName{
+      color: white;
+    }
+  }
+
+  .defaultInput input {
+    width: 100%;
+  }
+
+  .ant-modal-header {
+    border-bottom: none;
+  }
+}
+
+.TabPanel {
+  .ant-tabs-tab {
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+
+  .TabItem {
+    margin: 20px 0;
+    padding: 0 20px;
+
+
+    .selectionClass {
+      width: 200px !important;
+      line-height: 16px;
+      align-items: center;
+
+      .ant-select-selector {
+        height: 38px;
+        border-radius: $defaultBorderRadius;
+
+        .ant-select-selection-item {
+          line-height: 38px;
+
+        }
+      }
+    }
+
+    .chooseRow {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .inputNumberRow{
+        width: 200px;
+      }
+
+      .selection {
+        padding-left: 10px;
+      }
+    }
+
+    .textareaExtra {
+      border-radius: $defaultBorderRadius;
+      height: 200px;
+      margin-top: 20px;
+    }
+
+
+  }
+
+
+}
+
+

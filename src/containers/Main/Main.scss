@@ -1,0 +1,905 @@
+@import "Variables";
+
+@font-face{
+  font-family: $defaultFont;
+  font-weight: normal;
+  font-style: normal;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px transparent;
+}
+
+body{
+  font-family: $defaultFont;
+  color: $defaultColor;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: $bodyBackground;
+  font-size: 14px;
+}
+
+.btn{
+  height: 38px;
+}
+
+.logo{
+  transition: $mainTransition;
+  height: 30px;
+  width: 30px;
+  fill: $mainBlue;
+}
+
+.logo:hover{
+  transform: rotate(60deg);
+}
+
+.navbar{
+  justify-content: unset;
+  line-height: unset;
+  top: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding: $defaultPadding;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+
+    .logoPlace{
+      margin-right: 20px;
+    }
+
+    #basic-navbar-nav{
+      transition: $mainTransition;
+      border: 0;
+      height: 100%;
+    }
+
+    #basic-navbar-nav li{
+      font-size: 13px;
+      margin: 0;
+      border: 0;
+      height: 100%;
+      padding: 0;
+      top: 0;
+    }
+
+    #basic-navbar-nav li a{
+      padding: 1px 14px 11px;
+      display: block;
+      height: 100%;
+      color: $defaultColor;
+    }
+
+    .activeLink{
+      background: $lightBlue;
+      color: $mainBlue !important;
+
+      .defaultSvg{
+        display: none !important;
+      }
+
+      .activeSvg{
+        display: block !important;
+      }
+    }
+
+    #basic-navbar-nav li:hover{
+      background: $lightBlue;
+    }
+
+    #basic-navbar-nav li:hover a{
+      color: $mainBlue
+    }
+
+    #basic-navbar-nav li:hover svg{
+      fill: $mainBlue
+    }
+
+   #basic-navbar-nav svg{
+     width: 20px;
+     height: 20px;
+     display: block;
+     margin: .5rem auto .1rem;
+     fill: $colorIcons;
+     transition: $mainTransition;
+   }
+
+  #basic-navbar-nav .activeSvg{
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin: .5rem auto .1rem;
+    fill: $mainBlue;
+    transition: $mainTransition;
+  }
+
+  .navbar-nav .nav-link {
+    transition: $mainTransition;
+    height: 60px;
+    padding: 0 .8rem;
+  }
+
+  .buttonAdd{
+    margin-right: 4px;
+    margin-left: auto;
+    background: $mainBlue;
+    display: flex;
+    width: 160px;
+    height: 38px;
+    padding: 0 10px;
+    align-items: center;
+    font-size: 16px;
+    border-radius: $defaultBorderRadius;
+
+    .name{
+      line-height: 16px;
+      margin: 0
+    }
+
+  }
+
+  .buttonAdd svg{
+    fill: #fff;
+    width: 17px;
+    margin-right: 7px;
+    height: 17px;
+  }
+
+  .userInfo{
+    display: flex;
+    align-items: center;
+  }
+
+  .notification{
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .notification svg{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    fill: $colorIcons;
+    transition: $mainTransition;
+  }
+
+  .activeNotification:after{
+    content: '';
+    position: absolute;
+    background: #FC5A5A;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    right: 5px;
+    top: -6px;
+  }
+
+  .userName{
+    margin-left: 10px;
+  }
+
+  .userName .ant-dropdown-trigger{
+    display: flex;
+    box-shadow: none !important;
+    color: #7E8FA4;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    align-items: center;
+    font-size: 16px;
+
+    span{
+      margin-right: 10px;
+    }
+  }
+
+}
+
+.formSearch{
+  margin-right: 24px;
+}
+
+.navbar .userName .ant-dropdown-trigger svg{
+  width: 10px;
+  height: 5px;
+  margin-left: 2px;
+  fill: $colorIcons
+}
+
+.ant-dropdown-menu-item{
+  transition: $mainTransition;
+  padding: 6px 20px;
+}
+
+.ant-dropdown-menu-item:hover{
+  background: #F5F6FA;
+}
+
+.ant-dropdown-menu-item a{
+  color: $defaultColor;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.ant-dropdown-menu-item a:hover{
+  color: $defaultColor;
+}
+
+.ant-dropdown-menu{
+  padding: 14px 0;
+  border-radius: 10px;
+}
+
+.ant-dropdown-menu-item svg{
+  margin-right: 14px;
+  width: 18px;
+  height: 18px;
+  fill: $colorIcons;
+}
+
+.ant-dropdown-placement-bottomRight > .ant-dropdown-arrow{
+  right: 22px;
+  top: 2px
+}
+
+.ant-dropdown-arrow{
+  width: 12px;
+  height: 12px;
+  border-width: 8px;
+}
+
+.inputsSearch{
+  position: relative;
+}
+
+.inputsSearch svg{
+  position: absolute;
+  fill: $mainCollapse;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 10px;
+  z-index: 1;
+}
+
+.inputsSearch input{
+  width: 220px;
+  line-height: 38px;
+  letter-spacing: .2px;
+  font-size: 16px;
+  background: #F5F6FA;
+  border: 0;
+  border-radius: $defaultBorderRadius;
+  padding: 0 14px 0 44px;
+}
+
+.inputsSearch input::-webkit-input-placeholder {
+  color: #B2BECD;
+}
+.inputsSearch input:-ms-input-placeholder {
+  color: #B2BECD;
+}
+.inputsSearch input::placeholder {
+  color: #B2BECD;
+}
+
+// loader spinner
+
+.spinner {
+  bottom: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  animation: spinAround 500ms infinite linear;
+  will-change: transform;
+  right: 0;
+  margin: auto;
+}
+
+.spinner-sm {
+  width: 18px;
+  height: 18px;
+  border: 0.15rem solid transparent;
+}
+
+.spinner-md {
+  width: 22px;
+  height: 22px;
+  border: 0.2rem solid transparent;
+}
+
+.spinner-lg {
+  width: 32px;
+  height: 32px;
+  border: 0.22rem solid transparent;
+}
+
+.spinner-primary {
+  border-color: rgba(255, 255, 255, .3);
+  border-top-color: #eaeaea;
+}
+
+@-webkit-keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Preloader{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+
+.preloaderLogo{
+  width: 80px;
+  fill: #007BFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 80px;
+  animation: spinLoader 1.2s infinite linear;
+  will-change: transform;
+}
+
+@-webkit-keyframes spinLoader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinLoader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+//Custom Checkbox
+
+//Custom Checkbox
+.itemColSecond{
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.itemColSecond input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: $defaultColorCheckbox;
+}
+
+.checkmark-round {
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.itemColSecond:hover input ~ .checkmark {
+  background-color: $defaultColorCheckbox;
+}
+
+/* When the checkbox is checked, add a blue background */
+.itemColSecond input:checked ~ .checkmark {
+  background-color: $mainBlue;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+//Select number Group
+.ant-input-group-addon{
+  padding: 0 4px;
+  border-top-left-radius: $defaultBorderRadius;
+  border-bottom-left-radius: $defaultBorderRadius;
+  background: #fff;
+
+  .ant-select-selection-item{
+    font-size: 16px;
+  }
+
+  .ant-select-arrow{
+    display: none;
+  }
+
+  .iconSelectNumber{
+    width: 14px;
+    height: 8px;
+    fill: #73849A;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 4px;
+  }
+}
+
+.ant-input-wrapper input{
+  border-left: 0 !important;
+}
+
+/* Show the checkmark when checked */
+.itemColSecond input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.itemColSecond .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+.sideItemNameCheckbox {
+  color: $itemCount;
+  font-size: 15px;
+  position: relative;
+}
+
+.subname{
+  margin-top: 5px;
+  margin-left: 26%;
+}
+
+
+//Region Select Style
+
+.selectRegionBoxSecond {
+  margin-left: 20px;
+
+  label {
+    color: $colorIcons;
+  }
+}
+
+.selectRegionBox, .selectRegionBoxSecond, {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    color: $colorIcons;
+  }
+
+  .selectRegionBox .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: $defaultBorderRadius !important;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 94%;
+    height: 38px !important;
+    padding: 0 11px;
+  }
+
+  .ant-select-single .ant-select-selector .ant-select-selection-item, .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    padding: 0;
+    line-height: 36px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .selectInputRegion{
+    width: 200px !important;
+    height: 38px !important;
+
+    .ant-select-arrow {
+      z-index: 99;
+      display: inline-block;
+      color: inherit;
+      font-style: normal;
+      line-height: 0;
+      text-transform: none;
+      vertical-align: -0.125em;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      position: absolute;
+      top: 20px;
+      right: 11px;
+      width: 12px;
+      height: 12px;
+      margin-top: -6px;
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 12px;
+      line-height: 1;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .ant-select-clear {
+      position: absolute;
+      top: 20px;
+      right: 11px;
+      z-index: 1;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-top: -6px;
+      color: rgba(0, 0, 0, 0.25);
+      font-size: 12px;
+      font-style: normal;
+      line-height: 1;
+      text-align: center;
+      text-transform: none;
+      background: #fff;
+      cursor: pointer;
+      opacity: 0;
+      -webkit-transition: color 0.3s ease, opacity 0.15s ease;
+      transition: color 0.3s ease, opacity 0.15s ease;
+      text-rendering: auto;
+    }
+  }
+
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: $defaultBorderRadius;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%;
+    height: 38px !important;
+    padding: 0 11px;
+  }
+}
+
+.Street {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+// modal
+
+.ant-modal-body{
+  padding: 0;
+}
+
+.ant-modal-content{
+  border-radius: $defaultBorderRadius;
+
+  .ant-modal-header{
+    padding: 20px;
+    border-top-left-radius: $defaultBorderRadius;
+    border-top-right-radius: $defaultBorderRadius;
+  }
+
+  .header{
+    display: flex;
+
+    h5{
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    .steps{
+      display: flex;
+      margin-left: 56px;
+
+      .step{
+        margin-right: 20px;
+        align-items: center;
+        display: flex;
+      }
+
+      .text{
+        transition: $mainTransition;
+        color: $colorIcons;
+        margin: 0 12px;
+      }
+
+      .check{
+        transition: $mainTransition;
+        position: relative;
+        width: 26px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        border-radius: 50%;
+        border: 1px solid #D8DCE6;
+      }
+
+      .check:before{
+        line-height: 24px;
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .step:nth-child(1) .check:before{
+        content: '1';
+      }
+
+      .step:nth-child(2) .check:before{
+        content: '2';
+      }
+
+      .step:nth-child(3) .check:before{
+        content: '3';
+      }
+
+      .step:nth-child(4) .check:before{
+        content: '4';
+      }
+
+      .step:nth-child(4){
+        margin-right: 0;
+      }
+
+      svg{
+        width: 8px;
+        height: 14px;
+        fill: $mainCollapse;
+      }
+
+      .checked{
+        display: none;
+      }
+
+      .successStep{
+
+        .check{
+          border: 1px solid $lightBlue;
+          background: $lightBlue;
+          color: $mainBlue;
+        }
+
+        .checked{
+          display: block;
+
+          svg{
+            fill: $mainBlue;
+            width: 12px;
+            height: 12px;
+          }
+        }
+
+        .text{
+          color: $mainBlue
+        }
+
+        .check:before{
+          color: transparent;
+        }
+      }
+
+    }
+
+  }
+}
+
+.myCheckboxExtra .ant-checkbox-inner{
+  background: $defaultColorCheckbox;
+  border: none;
+
+  &:hover {
+    border: none;
+  }
+}
+
+.myCheckboxExtra .ant-checkbox-checked::after, .myCheckboxExtraFirst .ant-checkbox-checked::after {
+  border: none;
+}
+
+.myCheckboxExtra  .ant-checkbox-inner, .myCheckboxExtraFirst .ant-checkbox-inner {
+  border-radius: .2rem;
+}
+
+.myCheckboxExtra .ant-checkbox-inner::after {
+  left: 25%;
+  width: 6px;
+  height: 10px;
+}
+
+.ant-radio-inner::after {
+
+  .myCheckboxExtra, .myCheckboxExtraFirst {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    position: relative;
+    height: 16px;
+    margin-top: 5px;
+
+    .checkName {
+      padding-left: 10px;
+    }
+
+    .ant-checkbox {
+      margin-top: 4px;
+      height: auto;
+      border: none;
+    }
+
+    span {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+
+      .price {
+        position: absolute;
+        right: 20px;
+        color: $mainBlue;
+      }
+    }
+
+  }
+
+
+}
+
+.firstExtra {
+
+}
+
+.ant-modal-close-x svg{
+  width: 16px;
+  height: 16px;
+  fill: #A1ADBD;
+}
+
+.ant-modal-footer {
+  padding: 20px;
+  display: flex;
+
+  .rightBtns{
+    display: flex;
+    margin-left: auto;
+
+    button:first-child{
+      box-shadow: none;
+      border: 0;
+    }
+
+    .ant-btn-primary{
+      background: $mainBlue;
+
+      p{
+        color: #fff;
+      }
+    }
+  }
+
+  button{
+    border-radius: $defaultBorderRadius;
+    height: 38px;
+    display: flex;
+    align-items: center;
+
+    p{
+      color: $colorIcons;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+.myCheckboxExtra {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  position: relative;
+  height: 16px;
+  margin-top: 5px;
+
+  .ant-checkbox {
+    margin-top: 4px;
+    height: auto;
+  }
+
+  span {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+
+    .price {
+      position: absolute;
+      right: 35px;
+      color: $mainBlue;
+    }
+  }
+
+}
+
+.sender-mine {
+  border-top: 1px solid #EAEDF3;
+  margin-top: 10px;
+  position: relative;
+
+  .line {
+    opacity: 0.15;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+}
+
+
+.Settings{
+  margin-top: 80px;
+  padding: 0 20px;
+
+  .structure{
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-gap: 1.5vw;
+  }
+}

@@ -1,0 +1,12 @@
+@import "src/containers/Main/Variables";
+
+.Settings{
+  margin-top: 80px;
+  padding: 0 20px;
+
+  .structure{
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-gap: 1.5vw;
+  }
+}

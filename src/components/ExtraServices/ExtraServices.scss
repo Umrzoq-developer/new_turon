@@ -1,0 +1,107 @@
+@import "../../containers/Main/Variables";
+
+
+.leftSide {
+
+}
+.extra-head {
+  margin-bottom: 10px;
+}
+
+
+.inputRowFirst {
+  padding-bottom: 25px;
+}
+
+.inputRowSecond {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 0;
+
+
+  .rightSide {
+    width: 33%;
+  }
+
+  .selectExtraMine {
+
+    .selectedClass {
+      width: 170px;
+      height: 38px;
+
+      .ant-select-selector {
+        position: relative;
+        width: 170px;
+        height: 39px;
+        border-radius: $defaultBorderRadius;
+
+        .ant-select-selection-item {
+          margin-top: 3px;
+        }
+      }
+
+      .ant-select-arrow {
+        right: -38px !important;
+      }
+    }
+  }
+
+  .inputRowThird {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .selectExtra, .selectExtraMine {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+
+
+    .InputNumber {
+      width: 170px;
+      height: 38px;
+      line-height: 38px;
+      color: $colorIcons;
+      border-radius: $defaultBorderRadius;
+    }
+
+    label {
+      font-size: 16px;
+      color: $colorIcons;
+    }
+  }
+
+  .rightSide {
+    padding-top: 10px;
+
+    label {
+      font-size: 16px;
+      color: $colorIcons;
+    }
+
+    .textarea {
+      margin-top: 4px;
+      height: 120px;
+      width: 500px;
+      border-radius: $defaultBorderRadius;
+    }
+  }
+}
+
+.contentInput {
+  display: flex;
+  flex-direction: row;
+
+  .leftSide {
+    width: 70%;
+
+    .inputRowSecond {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+}
